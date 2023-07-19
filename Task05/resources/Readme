@@ -1,0 +1,6 @@
+I chose to use an unordered map as the container for my data because it offers the best average time complexity
+of O(1) for the operations that will be needed, such as searching, adding, and removing elements.
+Considering the potential for iterator invalidation when the size of the unordered map equals its capacity,
+I took this into account in my code.
+Additionally, as future operations are added it can be considered by checking 
+if the size of the unordered map equals its capacity before performing any operations.
